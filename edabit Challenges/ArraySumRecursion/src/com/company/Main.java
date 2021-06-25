@@ -2,6 +2,7 @@ package com.company;
 
 /**
  * <h1>Recursion: Array Sum</h1>
+ * <a href="https://edabit.com/challenge/hf2THAoQRQbAx2jc9">https://edabit.com/challenge/hf2THAoQRQbAx2jc9</a>
  *
  * <p>Write a function that finds the sum of an array. <b>Make your function recursive.</b></p>
  * <br>
