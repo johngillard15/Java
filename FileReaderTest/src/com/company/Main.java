@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    
+
     public static void readFileBuffer(File file) throws IOException{
         System.out.println("\nBufferedReader");
 
@@ -26,6 +26,8 @@ public class Main {
             line = scan.nextLine();
             System.out.println(line);
         }
+
+        scan.close();
     }
 
     public static void main(String[] args) {
