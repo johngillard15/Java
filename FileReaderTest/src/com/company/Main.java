@@ -30,15 +30,15 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        String fileName = "src/com/company/FileReaderTest.txt"; // can also read file directly
-        File fileObj = new File(fileName);
+        String filePath = "src/com/company/FileReaderTest.txt"; // can also read file directly
+        File fileObj = new File(filePath);
 
         try {
             readFileBuffer(fileObj);
             readFileScanner(fileObj);
         }
         catch(FileNotFoundException e) {
-            System.out.printf("File \"%s\" not found%n", fileName);
+            System.out.printf("File \"%s\" not found%n", fileObj.getName());
         }
         catch(IOException e){
             System.out.println("Invalid I/O");
