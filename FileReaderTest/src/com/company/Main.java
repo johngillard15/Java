@@ -21,9 +21,8 @@ public class Main {
 
         Scanner scan = new Scanner(file);
 
-        String line;
         while(scan.hasNextLine()){
-            line = scan.nextLine();
+            String line = scan.nextLine();
             System.out.println(line);
         }
 
