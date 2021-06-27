@@ -3,8 +3,24 @@ package com.company;
 import java.io.*;
 import java.util.*;
 
+/**
+ * <h1>File Reader Test</h1>
+ *
+ * <p>Testing reading files using BufferedReader and Scanner.</p>
+ * 
+ * <br>
+ *
+ * @since 26/6/2021
+ * @author John Gillard
+ */
+
 public class Main {
 
+    /**
+     *
+     * @param file
+     * @throws IOException
+     */
     public static void readFileBuffer(File file) throws IOException{
         System.out.println("\nBufferedReader");
 
@@ -16,6 +32,12 @@ public class Main {
 
         br.close();
     }
+
+    /**
+     *
+     * @param file
+     * @throws FileNotFoundException
+     */
     public static void readFileScanner(File file) throws FileNotFoundException{
         System.out.println("\nScanner");
 
