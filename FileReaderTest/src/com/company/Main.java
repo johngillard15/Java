@@ -7,7 +7,7 @@ import java.util.*;
  * <h1>File Reader Test</h1>
  *
  * <p>Testing reading files using BufferedReader and Scanner.</p>
- * 
+ *
  * <br>
  *
  * @since 26/6/2021
