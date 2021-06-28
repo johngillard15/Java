@@ -60,7 +60,7 @@ public class Main {
             readFileScanner(fileObj);
         }
         catch(FileNotFoundException e) {
-            System.out.printf("File \"%s\" not found%n", fileObj.getName());
+            System.out.printf("File \"%s\" not found\n", fileObj.getName());
         }
         catch(IOException e){
             System.out.println("Invalid I/O");

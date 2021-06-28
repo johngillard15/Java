@@ -15,9 +15,16 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Convert Celsius to Fahrenheit");
-        System.out.printf("24.00°F = %.2f°C\n", Challenge.celsiusToFarenheit(24));
+        System.out.printf("24.00°C = %.2f°F\n", Challenge.celsiusToFarenheit(24));
 
         System.out.println("\nReverse a String");
         System.out.printf("hello -> %s\n", Challenge.reverseString("hello"));
+
+        System.out.println("\nFactorial");
+        System.out.printf("5! = %d\n", Challenge.factorial(5));
+
+        System.out.println("\nFind the Longest Word in a String");
+        System.out.printf("The quick brown fox jumped over the lazy dog -> %d letters\n",
+                Challenge.findLongestWordLength("The quick brown fox jumped over the lazy dog"));
     }
 }
